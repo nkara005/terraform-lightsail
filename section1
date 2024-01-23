@@ -1,0 +1,35 @@
+what is vcs? and why do companies need it?
+# version control system is a software tool that helps manage changes to source code and other files in a project over time. it allows multiple contributors to work on the same project concurrently, tracks changes made by each contributor, and provides mechanisms for merging these changes seamlessly.the promary goals of a version control system include: history tracking, collaboration, branching and merging, concurrency, revert previous versions and backup and recovery.
+# there are two types of version control systems 1. centralized version control system (CVCS) there is a central server that store the entie history of the project. Developers check out files from this cental repository, make changes and the commit those changes back to the central server. 2.Distributed version control system (DVCS) each developer has their own local repository, and the entire project history is mirrored on each developer's machine.devlopers can commit changes locally and share them wuth others by pushing or pulling chages to and from remote repositories. Examples include git and mercurial.
+what is git? 
+# Git is a distributed version control system widely used in software development for tracking chages in source code during the devlopment process.git is known for its speed, flexibility, and efficiency in handling both small and large projects.
+what is the difference between git and github?
+# git is version control system itself, installed and used locally on a developers machine while github is a web-based platform that provides hosting for git repositories, along with collaboration features and a web interface.
+Explain the basic Git workflow.
+# working directory where the developer works on code locally on their computer, using git add files are moves to staging area,using git commit the code is moved to local repository and then finaly using git push the local repository is pushed to git-hub the web base service.
+how do you create a new git branch
+# git branch
+what is a git commit
+# this is moving files from staging are to local git repository
+What is a git repository
+# this where code and files being worked on locally are stored.
+How do solve a git push conflit?
+# git push conflict happens because of presence of an updated file in git hub.this is solved by pulling the file locally using git pull command command.
+list some git commands you have used
+# git init
+# git status
+# git commit
+# git branch
+# git add
+# git commit
+# git push
+# git log
+# git clone
+# git checkout
+# git tag
+# git pull
+How do you undo the last Git commit?
+# git reset --soft HEAD^
+# git reset --hard HEAD^
+What is a PR ( pull request) ?
+# pull request is used after the code been pushed to github, to request peer review before it is merged to the repository
